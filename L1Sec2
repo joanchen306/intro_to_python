@@ -1,0 +1,8 @@
+'''
+This is for intro to value types, variables and operations
+1. What types of values are in Python?
+2. Which if the following are valid variable names?
+3. Let's guess what these things do? (+, -, *, /, **, //, len())
+4. More Functions: %, input(), abs(), pow(), max()
+'''
+

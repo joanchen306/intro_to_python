@@ -1,0 +1,67 @@
+'''
+This is for intro to functions, the objectives are the following: 
+1. Why would we use functions? 
+2. What does return do?
+3. How do we pass in parameters? 
+'''
+
+
+
+
+### Version 1
+
+city = input("enter a city")
+temperature = input("what is the temperature today?")
+print("It is " + str(temperature) + " in " + city + " today.")
+
+city = input("enter a city")
+temperature = input("what is the temperature today?")
+print("It is " + str(temperature) + " in " + city + " today.")
+
+city = input("enter a city")
+temperature = input("what is the temperature today?")
+print("It is " + str(temperature) + " in " + city + " today.")
+
+
+
+
+
+
+
+### Version 2
+
+def announcer():
+    city = input("enter a city")
+    temperature = input("what is the temperature today?")
+    print("It is " + str(temperature) + " in " + city + " today.")
+    
+
+announcer()
+announcer()
+announcer()
+print(announcer())  #what happens here
+
+
+
+
+
+
+
+### Version 3
+
+def announcer_with_return():
+    city = input("enter a city")
+    temperature = input("what is the temperature today?")
+    print("It is " + str(temperature) + " in " + city + " today.")
+    return "It is " + str(temperature) + " in " + city + " today."
+    
+    
+print(announcer())
+    
+    
+    
+    
+    
+    
+    
+
